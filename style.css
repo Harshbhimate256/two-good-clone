@@ -146,6 +146,30 @@ body{
 #page2 .elem .dets:hover{
     height: 250px;
 }
+#subpage2{
+    min-height: 40vh;
+    /* background-color: rgb(238, 222, 222); */
+    display: flex;
+    margin-bottom: 10rem;
+    justify-content:space-between ;
+    padding: 10px;
+    position: relative;
+}
+#subpage2 #left-content h2{
+    font-size: 55px;
+    font-family: futura;
+    line-height: 2.8vw;
+    padding: 20px;
+    letter-spacing: 1px;
+}
+#subpage2 #right-content p{
+        font-size: 16.5px;
+        padding-right: 11vw;
+        line-height: 1.4vw;
+        letter-spacing: 0px;
+        font-family: helvetica;
+        font-weight: 200;
+}
 #page3{
     min-height: 135vh;
     width: 100%;
@@ -193,9 +217,36 @@ body{
     width: 100%;
 }
 #page4{
-    height: 100vh;
+    margin-top: 15rem;
+    min-height: 80vh;
     width: 100%;
-    background-color: rgb(211, 243, 243);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#para h1{
+    font-size: 70px;
+    font-family: futura;
+    line-height: 4vw;
+    letter-spacing: 0px;
+}
+#msgButton button{
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    height: 3vw;
+    width: 18vw;
+    margin-top: 5vw;
+    letter-spacing: -1px;
+    font-family: futura;
+    font-size: 13px;
+}
+#msgButton button:hover{
+    color: rgb(169, 166, 166);
+    
 }
 
 
