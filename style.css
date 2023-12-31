@@ -246,9 +246,39 @@ body{
 }
 #msgButton button:hover{
     color: rgb(169, 166, 166);
-    
 }
-
+#page5{
+    margin-top: 18rem;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    /* background-color: rgb(205, 250, 223); */
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1vw;
+}
+#page5 .box{
+    width: 33.33%;
+    height: 90vh;
+    /* background-color: red; */
+    /* border: 1px solid black; */
+}
+#page5 #text-box h2{
+    font-family: futura;
+    font-size: 25px;
+}
+#page5 #text-box{
+    /* padding: 20px; */
+    font-size: 17px;
+    font-family: helvetica; 
+    font-weight: 300;
+}
+#page5 .box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    padding-right: 20px;
+}
 
 
 
