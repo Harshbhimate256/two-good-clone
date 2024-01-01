@@ -141,7 +141,8 @@ body{
     width: 50%;
     border-radius: 40px;
     position: absolute;
-    background-color: rgb(145, 13, 13)
+    background-color: rgb(145, 13, 13);
+    transition-duration: .4s;
 }
 #page2 .elem .dets:hover{
     height: 250px;
